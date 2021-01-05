@@ -1,0 +1,22 @@
+<view bindtap="viewTap">单击测试</view>
+<view bindtap="changeTap">单击改变</view>
+<view hidden="{{name == zhf }}">{{ name }}</view>
+<!-- <view wx:for='{{ [1,2,3,4,5,6,7,8,9] }}' wx:for-item = 'i'>
+  <view wx:for='{{ [1,2,3,4,5,6,7,8,9] }}' wx:for-item = 'j'>
+    <view wx:if="{{ i<=j }}">
+      {{ i }} * {{ j }} = {{ i*j }}
+    </view>  
+  </view>
+</view> -->
+<!-- 定义一个模板 -->
+<template name="zhf">
+  <view>
+    <view>{{ item.name }}</view>
+    <view>{{ item.age }}</view>
+  </view>
+</template>
+
+<!-- 使用一个模板 -->
+<view wx:for="{{ users }}"  >
+  <template is="zhf" data="{{ item }}" />
+</view>
