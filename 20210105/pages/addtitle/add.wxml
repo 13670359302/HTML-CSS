@@ -1,0 +1,10 @@
+<view class="contains">
+  <view class="main">
+    <input type="number" bindinput="first" placeholder="被加数" maxlength="12" focus="true"/>   
+    <input type="number" bindinput="second" placeholder="加数" maxlength='12' /> 
+    <view class="getInput">
+      <button type="default" plain="true" bindtap="bindAdd">计算</button> 
+    </view>
+    <input type="number" placeholder="结果" value="{{ resnum }}" disabled/>  
+  </view>
+</view>

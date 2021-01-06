@@ -1,0 +1,14 @@
+<view class="contains">
+  <view class="main">
+    <view class="titleitem">
+      <view class="section_title">被加数</view>
+      <slider min="0" max="1000" bindchange="slider1change" show-value />
+      <view class="section_title">加数</view>
+      <slider min="0" max="1000" bindchange="slider2change" show-value />
+    </view>
+    <view class="getInput">
+      <button type="default" plain="true" bindtap="bindAdd">计算</button> 
+    </view>
+    <input type="number" placeholder="结果" value="{{ resnum }}" disabled/>  
+  </view>
+</view>

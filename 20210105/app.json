@@ -1,5 +1,8 @@
 {
   "pages":[
+    "pages/counter/counter",
+    "pages/addtitle2/add",
+    "pages/addtitle/add",
     "pages/test/test",
     "pages/index/index",
     "pages/logs/logs"
@@ -9,13 +12,13 @@
     "backgroundColor":"#000",
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   },
   "tabBar":{
     "color":"red",
     "selectedColor":"#3cc51f",
     "borderStyle":"white",
-    "backgroundColor":"#ffffff",
+    "backgroundColor":"#000",
     "list":[{
       "text":"主页",
       "pagePath":"pages/index/index"

@@ -1,0 +1,17 @@
+.contains{
+  margin: 100rpx auto;
+  padding: 10rpx 80rpx;
+}
+input{
+  height: 80rpx;
+  margin-bottom: 15rpx;
+  border: 2px solid #ccc;
+  border-radius: 15rpx;
+  padding-left: 10rpx;
+}
+button{
+  margin-bottom: 15rpx;
+}
+.titleitem{
+  margin-left: 40rpx;
+}
