@@ -1,12 +1,13 @@
 {
   "pages":[
+    "pages/counter-demo/counter",
     "pages/counter/counter",
     "pages/addtitle2/add",
     "pages/addtitle/add",
     "pages/test/test",
     "pages/index/index",
     "pages/logs/logs"
-  ],
+  ], 
   "window":{
     "backgroundTextStyle":"light",
     "backgroundColor":"#000",
